@@ -6,8 +6,8 @@ from PyPDF2 import PdfReader
 
 # Flask app setup
 app = Flask(__name__)
-app.secret_key = 'supersecretkey'  # For flash messages
-UPLOAD_FOLDER = 'static/audio'
+app.secret_key = 'VN5KcB@VWuR9J,Wk_1UwYNJ4#5;Wngs%3wQ(yk/89u6LWd"o0X'  # For flash messages
+UPLOAD_FOLDER = 'static/assets'
 ALLOWED_EXTENSIONS = {'pdf'}
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
